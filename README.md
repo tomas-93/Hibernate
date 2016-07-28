@@ -1,12 +1,10 @@
 # Hibernate
 Configuracion de hibernate con spring annotation y ejemplos de su ejecución
 
-
-##Java annotation
+Java annotation
 ---
+
 ###RootConfigContext
-
-
 ````java
 @EnableScheduling
 @EnableTransactionManagement(
@@ -68,7 +66,7 @@ public class RootConfigContext
     }
 ````
 
-###Services and Respository
+#####Services and Respository
 ```java
 @Repository
 public class 
@@ -96,8 +94,8 @@ public class PersonServicesImpDao implements PersonServicesDao
 }
 ````
 
-##XML
----
+####XML
+
 #####DataBase
 ```xml
     <beans:bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
