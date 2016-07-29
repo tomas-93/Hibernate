@@ -94,7 +94,7 @@ public class PersonServicesImpDao implements PersonServicesDao
 }
 ````
 
-####XML
+##Sin Java annotation Solo con XML
 
 #####DataBase
 ```xml
